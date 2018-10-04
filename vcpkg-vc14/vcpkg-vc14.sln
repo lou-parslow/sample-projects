@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vcpkg-vc14", "vcpkg-vc14\vcpkg-vc14.vcxproj", "{7EB91755-141F-4612-938B-5201D83416DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vcpkg-vc14.test", "vcpkg-vc14.test\vcpkg-vc14.test.vcxproj", "{B1D362DA-EB08-48ED-9636-5F5237F32459}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6956B7F6-6D48-47C4-970C-D7B84B808239}"
+	ProjectSection(SolutionItems) = preProject
+		rakefile.rb = rakefile.rb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EB91755-141F-4612-938B-5201D83416DE}.Debug|x64.ActiveCfg = Debug|x64
+		{7EB91755-141F-4612-938B-5201D83416DE}.Debug|x64.Build.0 = Debug|x64
+		{7EB91755-141F-4612-938B-5201D83416DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{7EB91755-141F-4612-938B-5201D83416DE}.Debug|x86.Build.0 = Debug|Win32
+		{7EB91755-141F-4612-938B-5201D83416DE}.Release|x64.ActiveCfg = Release|x64
+		{7EB91755-141F-4612-938B-5201D83416DE}.Release|x64.Build.0 = Release|x64
+		{7EB91755-141F-4612-938B-5201D83416DE}.Release|x86.ActiveCfg = Release|Win32
+		{7EB91755-141F-4612-938B-5201D83416DE}.Release|x86.Build.0 = Release|Win32
+		{B1D362DA-EB08-48ED-9636-5F5237F32459}.Debug|x64.ActiveCfg = Debug|x64
+		{B1D362DA-EB08-48ED-9636-5F5237F32459}.Debug|x64.Build.0 = Debug|x64
+		{B1D362DA-EB08-48ED-9636-5F5237F32459}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1D362DA-EB08-48ED-9636-5F5237F32459}.Debug|x86.Build.0 = Debug|Win32
+		{B1D362DA-EB08-48ED-9636-5F5237F32459}.Release|x64.ActiveCfg = Release|x64
+		{B1D362DA-EB08-48ED-9636-5F5237F32459}.Release|x64.Build.0 = Release|x64
+		{B1D362DA-EB08-48ED-9636-5F5237F32459}.Release|x86.ActiveCfg = Release|Win32
+		{B1D362DA-EB08-48ED-9636-5F5237F32459}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE7D02CC-80B7-4015-8C25-7E2DFD4EFFDC}
+	EndGlobalSection
+EndGlobal
