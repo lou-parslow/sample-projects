@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGet.Net.Standard", "NuGet.Net.Standard\NuGet.Net.Standard.csproj", "{3320BBF6-71DC-4D54-BAB8-672FA79333F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGet.Net.Standard.Test", "NuGet.Net.Standard.Test\NuGet.Net.Standard.Test.csproj", "{04593043-7373-4FCC-9D0E-149245AB1501}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9641408D-7680-4E08-9056-263F4AA775AB}"
+	ProjectSection(SolutionItems) = preProject
+		rakefile.rb = rakefile.rb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3320BBF6-71DC-4D54-BAB8-672FA79333F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3320BBF6-71DC-4D54-BAB8-672FA79333F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3320BBF6-71DC-4D54-BAB8-672FA79333F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3320BBF6-71DC-4D54-BAB8-672FA79333F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04593043-7373-4FCC-9D0E-149245AB1501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04593043-7373-4FCC-9D0E-149245AB1501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04593043-7373-4FCC-9D0E-149245AB1501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04593043-7373-4FCC-9D0E-149245AB1501}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {360E319A-C12A-4CE5-852B-ECD8CBEDA2DC}
+	EndGlobalSection
+EndGlobal
